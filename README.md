@@ -1,1 +1,49 @@
 # Law-and-Order
+
+# LAPIS
+
+## Contributors
+
+<table>
+	<tr>
+		<th>Name</th>		
+		<th>Affiliation</th>
+		<th>Email</th>
+	</tr>
+	<tr>
+		<td>Heedou Kim</td>		
+		<td>Data Mining and Information Systems Lab,<br>Korea University, Seoul, South Korea</td>
+		<td>heedou123@korea.ac.kr</td>
+	</tr>
+  <tr>
+		<td>Mogan Gim*</td>		
+		<td>Data Mining and Information Systems Lab,<br>Korea University, Seoul, South Korea</td>
+		<td>akim@korea.ac.kr</td>
+	</tr>
+ 	<tr>
+		<td>Donghee Choi</td>		
+		<td>Department of Metabolism, Digestion and Reproduction, <br>Imperial College London, London, United Kingdom</td>
+		<td>donghee.choi@imperial.ac.uk</td>
+	</tr>
+   	<tr>
+		<td>Soonil Bae</td>		
+		<td>Department of Metabolism, Digestion and Reproduction, <br>Imperial College London, London, United Kingdom</td>
+		<td>donghee.choi@imperial.ac.uk</td>
+	</tr>
+   	<tr>
+		<td>Miyoung Kim*</td>		
+		<td>Department of Metabolism, Digestion and Reproduction, <br>Imperial College London, London, United Kingdom</td>
+		<td>donghee.choi@imperial.ac.uk</td>
+	</tr>
+	<tr>
+		<td>Jaewoo Kang*</td>		
+		<td>Data Mining and Information Systems Lab,<br>Korea University, Seoul, South Korea</td>
+		<td>kangj@korea.ac.kr</td>
+	</tr>
+</table>
+
+- &ast;: *Corresponding Author*
+
+
+## Link to Dataset
+https://drive.google.com/file/d/1WiYKwUio0CC6Z7EJMO_zUll2CyeSBdrP/view?usp=drive_link
