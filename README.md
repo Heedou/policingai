@@ -1,7 +1,5 @@
 # Law-and-Order
 
-# LAPIS
-
 ## Contributors
 
 <table>
