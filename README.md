@@ -14,7 +14,7 @@
 		<td>heedou123@korea.ac.kr</td>
 	</tr>
   <tr>
-		<td>Mogan Gim*</td>		
+		<td>Mogan Gim</td>		
 		<td>Department of Biomedical Engineering,<br>Hankuk University of Foreign Studies, South Korea</td>
 		<td>akim@korea.ac.kr</td>
 	</tr>
