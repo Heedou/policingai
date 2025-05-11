@@ -115,3 +115,5 @@ https://huggingface.co/datasets/PSI-PAIRC/Law_and_Order
 |                       | Element Analysis                    | ACC               | 0.67   | 0.81         | 0.66         | 0.71          | 0.64           | 0.12           |
 |                       |                                     | F1                | 0.84   | 0.93         | 0.81         | 0.88          | 0.82           | 0.24           |
 
+# Licensing Information
+Licensed under the CC BY-NC 4.0
