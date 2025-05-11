@@ -43,6 +43,19 @@ Benchmark Dataset for Evaluating Large Language Models in Policing
 
 - &ast;: *Corresponding Author*
 
+# How to Use Dataset
+
+```python
+from datasets import load_dataset
+
+# Criminal Hypothesis 태스크 불러오기
+ds = load_dataset("PSI-PAIRC/Law_and_Order", name="CI_Criminal_Hypothesis")
+
+print(ds["train"][0])     # 훈련 데이터
+print(ds["validation"][0])  # dev 데이터
+print(ds["test"][0])        # 테스트 데이터
+```
+
 
 ## Link to Dataset
 https://huggingface.co/datasets/PSI-PAIRC/Law_and_Order
