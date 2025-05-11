@@ -1,4 +1,4 @@
-# Law-and-Order
+# Law & Order
 Benchmark for Evaluating Large Language Models in Policing
 
 ## Contributors
