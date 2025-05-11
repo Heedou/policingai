@@ -1,5 +1,5 @@
 # Law & Order
-Benchmark for Evaluating Large Language Models in Policing
+Benchmark Dataset for Evaluating Large Language Models in Policing
 
 ## Contributors
 
