@@ -93,8 +93,8 @@ https://huggingface.co/datasets/PSI-PAIRC/Law_and_Order
 | LLM as                | Task                                | Metric            | GPT4o | Gemini 2.0 | EEVE 10.8B | SOLAR 10.7B | Llama 3.1-8B | Llama 3.2-1B |
 |-----------------------|-------------------------------------|-------------------|--------|--------------|--------------|---------------|----------------|----------------|
 | Police Officer        | Operational QA                      | LLM-as-a-Judge    | 0.69   | 0.66         | 0.87         | 0.85          | 0.88           | 0.64           |
-|                       | Offense Detection                   | ACC               | 0.88   | 0.88         | 0.83         | 0.95          | 0.50           | 0.21           |
-|                       |                                     | F1                | 0.96   | 0.96         | 0.96         | 0.98          | 0.77           | 0.61           |
+|                       | Offense Detection                   | ACC               | 0.86   | 0.86         | 0.87         | 0.98          | 0.50           | 0.21           |
+|                       |                                     | F1                | 0.90   | 0.93         | 0.95         | 0.99          | 0.77           | 0.61           |
 | Intelligence Analyst  | Fraudulent Scenario Detection       | ACC               | 0.97   | 0.87         | 0.99         | 0.99          | 0.86           | 0.63           |
 |                       |                                     | F1                | 0.97   | 0.88         | 0.99         | 0.99          | 0.85           | 0.58           |
 |                       | Fraudulent Scenario Completion      | LLM-as-a-Judge    | 0.70   | 0.66         | 0.67         | 0.71          | 0.71           | 0.64           |
