@@ -48,38 +48,38 @@ Benchmark Dataset for Evaluating Large Language Models in Policing
 ```python
 from datasets import load_dataset
 
-# Criminal Hypothesis 태스크 불러오기
+# Criminal Hypothesis
 ds = load_dataset("PSI-PAIRC/Law_and_Order", name="CI_Criminal_Hypothesis")
 
-print(ds["train"][0])     # 훈련 데이터
-print(ds["validation"][0])  # dev 데이터
-print(ds["test"][0])        # 테스트 데이터
+print(ds["train"][0])     
+print(ds["validation"][0])  
+print(ds["test"][0])        
 
-# Statute_Mapping 태스크 불러오기
+# Statute_Mapping 
 ds = load_dataset("PSI-PAIRC/Law_and_Order", name="CI_Statute_Mapping")
 
-# Element_Analysis 태스크 불러오기
+# Element_Analysis 
 ds = load_dataset("PSI-PAIRC/Law_and_Order", name="CI_Element_Analysis")
 
-# Fradulent_Intention_Interpretation 태스크 불러오기
+# Fradulent_Intention_Interpretation 
 ds = load_dataset("PSI-PAIRC/Law_and_Order", name="IA_Fradulent_Intention_Interpretation")
 
-# Fradulent_Scenario_Completion 태스크 불러오기
+# Fradulent_Scenario_Completion 
 ds = load_dataset("PSI-PAIRC/Law_and_Order", name="IA_Fradulent_Scenario_Completion")
 
-# Case_Analysis_NER 태스크 불러오기
+# Case_Analysis_NER 
 ds = load_dataset("PSI-PAIRC/Law_and_Order", name="IA_Case_Analysis_NER")
 
-# Deceptive_Message_Analysis 태스크 불러오기
+# Deceptive_Message_Analysis 
 ds = load_dataset("PSI-PAIRC/Law_and_Order", name="IA_Deceptive_Message_Analysis")
 
-# Offense_Detection 태스크 불러오기
+# Offense_Detection 
 ds = load_dataset("PSI-PAIRC/Law_and_Order", name="PO_Offense_Detection")
 
-# Operational_QA 태스크 불러오기
+# Operational_QA 
 ds = load_dataset("PSI-PAIRC/Law_and_Order", name="PO_Operational_QA")
 
-# Emergency_Reports_Summarization 태스크 불러오기
+# Emergency_Reports_Summarization 
 ds = load_dataset("PSI-PAIRC/Law_and_Order", name="PT_Emergency_Reports_Summarization")
 
 ```
