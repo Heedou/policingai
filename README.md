@@ -11,7 +11,7 @@ Benchmark Dataset for Evaluating Large Language Models in Policing
 	</tr>
 	<tr>
 		<td>Heedou Kim</td>		
-		<td>Korean National Police Agency, Data Mining and Information Systems Lab,<br>Korea University, South Korea</td>
+		<td>Korean National Police Agency\\ Data Mining and Information Systems Lab,<br>Korea University, South Korea</td>
 		<td>heedou123@korea.ac.kr</td>
 	</tr>
   <tr>
