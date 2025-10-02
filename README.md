@@ -181,6 +181,10 @@ for key in keys:
     print(f"Data for {key}:", data[key])
 ```
 
+* To train smaller Language Models, you can use the code provided below.
+```python
+python train_laworer.py -oc [model name]
+```
 
 ## Link to Dataset
 https://drive.google.com/file/d/16RTs00zWr1H8vFOU0Wgt0IklXAoDyXNN/view?usp=sharing
