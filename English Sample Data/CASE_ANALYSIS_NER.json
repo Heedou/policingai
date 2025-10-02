@@ -1,0 +1,17 @@
+{
+"conv_13534": {
+    "conversation": "At the scene of an arrest involving a financial fraud ring led by a primary suspect, two bankbooks were discovered under the name of Kim Soo-ha : one from Hyundai Motor Securities and one from Lotte Card. We are currently investigating and contacted you during the process. Upon checking the date of account opening, we found that they were opened this year—specifically on August 22nd in Seoul. Did you, Kim Soo-ha, open these accounts yourself? So are you saying that you are unaware of this matter? You were born in 1989, correct? These were identified as 'stress accounts,' which cannot be checked through mobile banking systems. Because of this, more than half of the dozens of people connected to this case are unaware of their involvement. As I mentioned, the accounts were confirmed to have been opened on August 22nd. There have been many victims, and these accounts were used for crimes related to fake (borrowed-name) bankbooks. So, what is the requirement in this case?",
+    "source": "voice",
+    "output": "At the scene of an arrest involving a financial fraud ring led by a primary suspect, two bankbooks were discovered under the name of KimSoo-ha[B-ps_name]: one from HyundaiMotorSecurities[B-og_organization] and one from LotteCard[B-og_organization]. We are currently investigating and contacted you during the process. Upon checking the date of account opening, we found that they were opened this year—specifically on August 22nd in Seoul. Did you, KimSoo-ha[B-ps_name], open these accounts yourself? So are you saying that you are unaware of this matter? You were born in 1989[B-qt_birth], correct? These were identified as 'stress accounts,' which cannot be checked through mobile banking systems. Because of this, more than half of the dozens of people connected to this case are unaware of their involvement. As I mentioned, the accounts were confirmed to have been opened on August 22nd. There have been many victims, and these accounts were used for crimes related to fake (borrowed-name) bankbooks. So, what is the requirement in this case?"
+},
+"conv_25927": {
+    "conversation": "[International message] We are contacting you regarding your loan inquiry information. This is not spam. Please consider a consultation. Message us via Talk at hosi1246 !_x000D_\nSMS/-",
+    "source": "smishing",
+    "output": "[International message] We are contacting you regarding your loan inquiry information. This is not spam. Please consider a consultation. Message us via Talk at hosi1246[B-qt_bad_link] !_x000D_\nSMS/-"
+},
+"conv_2998": {
+    "conversation": "The defendant, who was making a living as a day laborer(B-cv_occupation), was unable to work for several days and decided to rob(B-cv_law) someone of their property after preparing a box cutter(B-tmc_tool) and a pair of work gloves(B-tmc_tool).",
+    "source": "court",
+    "output": "The defendant, who was making a living as a day laborer[B-cv_occupation], was unable to work for several days and decided to rob[B-cv_law] someone of their property after preparing a box cutter[B-tmc_tool] and a pair of work gloves[B-tmc_tool]."
+}
+}

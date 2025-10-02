@@ -1,0 +1,67 @@
+{
+"139": {
+    "conversation": "During the investigation of the confiscated items, bank accounts under your name from [Bank Name] and [Bank Name] have been discovered.\n",
+    "output": "I see. (Do you know anything about these two accounts?)\nUh, upon checking the passbooks, it was confirmed that they were opened around August 2018 at [Address].\nDid you personally receive the issuance of these accounts?",
+    "file": "[Seoul National University]NR_0011114_.txt",
+    "case": "NR_001111",
+    "time": "UTC 2019-04-09 04:11:32"
+},
+"140": {
+    "conversation": "During the investigation of the confiscated items, bank accounts under your name from [Bank Name] and [Bank Name] have been discovered.\nYes. (Do you have any knowledge about these two accounts?)\n",
+    "output": "Uh, when the accounts were checked, it was confirmed that they were opened around August 2018 at [Address].\nWere you the one who received them personally?\nWell, we are now trying to determine whether you are a victim who suffered damages due to personal information leakage.",
+    "file": "[Seoul National University]NR_0011114_.txt",
+    "case": "NR_001111",
+    "time": "UTC 2019-04-09 04:11:32"
+},
+"546": {
+    "conversation": "Excuse me (/u) yes.\nYes, yes.\nExcuse me, do you happen to know a [age]-year-old woman named [Name] from [Address]?\nHave you ever heard of her even once from someone around you?\nAh, the reason I ask is because our investigation unit recently apprehended a financial fraud group led by [Name].\nDuring the process of apprehending them, we seized a large number of credit cards, check cards, and security cards.\nYes, and during that seizure, we found one [Bank Name] and one [Bank Name] account book under your name, which is why we’re contacting you.\n",
+    "output": "Yes. (So to verify whether these accounts were really opened under your name, we sent a cooperation request to [Institution Name].)\nYes, we confirmed the account under the name of [Name], born on [Date of Birth].\nThis is Investigator Kim Yujin from the Seoul Central District Prosecutors’ Office.",
+    "file": "[Seoul National University]NR_0011516_.txt",
+    "case": "NR_001151",
+    "time": "UTC 2019-05-17 00:04:27"
+},
+"547": {
+    "conversation": "Excuse me (/u) yes.\nYes, yes.\nExcuse me, do you happen to know a [age]-year-old woman named [Name] from [Address]?\nHave you ever heard of her, even once, from someone around you?\nAh, the reason I ask is because our investigation unit recently apprehended a financial fraud group involving [Name].\nDuring the process of apprehending them, we seized a large number of credit cards, check cards, and security cards.\nYes, and during the seizure, we found one [Bank Name] and one [Bank Name] account book under your name, which is why we’re contacting you.\nOh, really?\nYes. (So to verify whether these accounts were indeed opened under [Name]’s name, we sent an official request to [Institution Name] to investigate.)\n",
+    "output": "Yes, we confirmed an account under the name of [Name], born on [Date of Birth].\nI’m Investigator Kim Yujin from the Seoul Central District Prosecutors’ Office.\nIt appears the two accounts were issued around May 2018 at [Address].",
+    "file": "[Seoul National University]NR_0011516_.txt",
+    "case": "NR_001151",
+    "time": "UTC 2019-05-17 00:04:27"
+},
+"727": {
+    "conversation": "This is Investigator Seo Gang-jun.\nYes, the reason I'm calling is to notify you of a few matters regarding a financial incident that occurred under your name.\n(Excuse me, do you have a moment to talk?)\nBefore I explain the incident, may I ask you a few questions? Do you know someone named [Name]?\nHe's in his early [Age]s and is from [Address]. Are you sure you don’t know him?\nThen, have you lost any form of ID such as your resident registration card, driver’s license, or passport within the past five years?\nYou've never lost any of those?\nAre you currently in possession of all of them?\nThe reason I'm asking is that recently, our prosecution unit apprehended [Name] along with accomplices.\nDuring the arrest, we seized numerous fraudulent bankbooks and cloned credit cards and personal information. Among the seized items were bank accounts under your name with [Bank Name] and [Bank Name].\nUpon checking the account details, it was confirmed that they were opened at a branch located in [Address] on September 27, 2018.\n(Do you have any knowledge of this?)\nYou’re saying you’re completely unaware of this?\nJust to confirm, is your name [Name]?\nYou’re not [Name]?\n",
+    "output": "Let me verify for a namesake. Is your date of birth [Date of Birth]?\nYes, this is the Financial Crimes Division.\nThis is Investigator Seo Gang-jun.",
+    "file": "[Seoul National University]NR_0011118_.txt",
+    "case": "NR_001111",
+    "time": "UTC 2019-04-09 04:11:32"
+}
+,
+"728": {
+    "conversation": "This is Investigator Seo Gang-jun.\nYes, I'm calling to inform you about a financial incident that occurred under your name.\n(Excuse me, is now a good time to talk?)\nBefore I go into the details, may I ask you a few questions? Do you know someone named [Name]?\nHe’s in his early [Age]s and from [Address]. Are you sure you don’t know him?\nThen, in the past five years, have you ever lost your ID card, driver’s license, or passport?\nYou’ve never lost any of them?\nSo you're currently in possession of all of them?\nThe reason I’m asking is because recently, our prosecution unit arrested [Name] and their accomplices.\nDuring the arrest, we seized a large number of fraudulent bankbooks, cloned credit cards, and personal data. Among those items were two bank accounts under your name with [Bank Name] and [Bank Name].\nUpon checking the account information, it was confirmed that they were opened on September 27, 2018, at a branch located in [Address].\n(Do you have any knowledge of this?)\nYou’re saying you’re unaware of this?\nExcuse me, but is your name [Name]?\nYou're not [Name]?\nDidn’t you say you were [Name] when I first called?\nLet me double-check—were you born on [Date of Birth]?\n",
+    "output": "Yes, this is the Financial Crimes Division.\nThis is Investigator Seo Gang-jun.\nAs I mentioned, we’ll be sending an official document regarding this matter.",
+    "file": "[Seoul National University]NR_0011118_.txt",
+    "case": "NR_001111",
+    "time": "UTC 2019-04-09 04:11:32"
+}
+,
+ "742": {
+        "conversation": "여보세요?\n예 [이름] 씨 맞습니까?\n예 수고하십니다 여기는 서울중앙지검 이고요 저는 첨단범죄 수사 일 부 일 팀에 김기철 수사관 입니다.\n다름이 아니고 본인과 연루된 사건이 접수가 돼서 몇 가지 확인 차 연락 드렸는데 혹시 통화 가능 하십니까?\n예 혹시 서울 출신인 [이름] 이라는 [나이] 여성 아십니까?\n전혀 모르시나요?\n네 제가 [이름] 에 관해 왜 질문을 했었냐면 이번에 저희 중앙 지검 관할에서 [이름] 을 주범으로 된 금융 사기단을 검거를 했습니다.\n",
+        "output": "근데 검거 될 당시 현장에서 여러사람의 카드나 신분증 통장 등을 대량으로 압수를 했는데.\n중요한것은 압수 물품들 중에 [이름] 씨 본인 명의로 돼있는 [은행명] 과 [은행명] 씨엠에이 통장이 발견 돼서 지금 연락드린 거고요.\n네 압수 된 두 통장에 거래내역을 조회해보니 이미 (네.) 범죄에 사기 사건 등에 사용이 됐더라고요.",
+        "file": "[서울대]NR_0011379_.txt",
+        "case": "NR_001137",
+        "time": "UTC 2019-05-02 04:16:45"
+    },
+"742": {
+    "conversation": "Hello?\nYes, is this [Name]?\nYes, thank you. This is the Seoul Central District Prosecutors' Office, and I’m Investigator Kim Ki-cheol from the Cyber Crime Investigation Division 1, Team 1.\nI'm calling because a case involving you has been reported, and I’d like to confirm a few things—do you have time to talk?\nBy any chance, do you know a woman named [Name], around [Age], from Seoul?\nYou don’t know her at all?\nThe reason I asked about [Name] is that our office recently arrested a financial fraud ring led by her within our jurisdiction.\n",
+    "output": "During the arrest, we seized a large number of credit cards, IDs, and bank accounts belonging to various individuals.\nThe important point is that among the seized items were CMA accounts under your name with [Bank Name] and [Bank Name], which is why we’re contacting you.\nYes, after checking the transaction history of those two accounts, we found that they had already been used in fraud-related crimes.",
+    "file": "[Seoul National University]NR_0011379_.txt",
+    "case": "NR_001137",
+    "time": "UTC 2019-05-02 04:16:45"
+},
+"751": {
+    "conversation": "Hello?\nYes, is this [Name]?\nYes, thank you. This is the Seoul Central District Prosecutors' Office. I’m Investigator Kim Ki-cheol from Cyber Crime Investigation Division 1, Team 1.\nI’m calling to confirm a few things as a case involving you has been filed—do you have time to speak?\nDo you know a woman named [Name], in her [Age]s, from Seoul?\nYou don’t know her at all?\nThe reason I asked is because our office recently arrested a financial fraud ring led by [Name].\nAt the time of the arrest, we seized a large quantity of cards, IDs, and bank accounts.\nThe important thing is that among the seized items, we found CMA bank accounts under your name with [Bank Name] and [Bank Name], which is why we’re contacting you now.\nYes, [Bank Name] and [Bank Name].\nUpon checking the transaction history of those seized accounts, they had already been used in fraud-related crimes.\nSo now the question is whether you personally opened those two accounts under your name and provided them to the criminals,\nor if your personal information was leaked and the accounts were opened without your knowledge.\nDid you open those bank accounts?\nYou didn’t open them at all and you don’t even transact with those banks?\nThese two accounts were confirmed to have been newly opened on September 7, 2018, at a branch located at [Address].\nYou have no relation to that at all?\nHave you recently experienced any cases of personal information leakage?\nNo suspicious texts or emails?\nYou mentioned getting a message on KakaoTalk from someone overseas?\nAh, so it wasn’t a message sent directly to you? Okay.\nAnd you just blocked the sender?\nThen this is the first time you're hearing about this case?\nCurrently, bank accounts under your name were found at the crime scene.",
+    "output": "Oh, you weren’t aware at all. This case involves not only you, but nearly 200 people nationwide.\nAmong them, some were victims due to personal information leaks, while others struggling financially accepted payment in exchange for selling or handing over their accounts.\n(So, have you ever sold or transferred a bank account to someone else?)",
+    "file": "[Seoul National University]NR_0011379_.txt",
+    "case": "NR_001137",
+    "time": "UTC 2019-05-02 04:16:45"
+}
+}

@@ -1,0 +1,87 @@
+{
+"conv_9476": {
+    "conversation": "[International Call][The National Health Insurance] Health checkup results have been sent. Please check the details at https://c07.mt2s.best_x000D_\nSMS/-",
+    "output": "Report of spam impersonating an institution"
+},
+"conv_16661": {
+    "conversation": "[Korea National Police Agency Traffic (eFINE)] Notice of traffic violation demerit points (sent). Check details http://fip.fu6k.one_x000D_\nSMS/-",
+    "output": "Report of spam impersonating an institution"
+}
+,
+"conv_7829": {
+    "conversation": "[International Call] Mr. Kang Chul-gyu, you are requested to appear. Case inquiry: gourl.kr/CheckCase.K Case details: [Electronic Finance] Officer: 031-312-5680_x000D_\nSMS/-",
+    "output": "Report of spam impersonating an institution"
+},
+"conv_3822": {
+    "conversation": "We regret to inform you that your father passed away today. Funeral hall: http://buly.kr/9XIGKIJ_x000D_\nSMS/-",
+    "output": "Report of spam impersonating an acquaintance"
+},
+"conv_20419": {
+    "conversation": "Dad, my phone broke~ I just dropped it off for repairs and got a temporary phone~ I'm using this number for now, so please reply when you see this message~_x000D_\nSMS/-",
+    "output": "Report of spam impersonating an acquaintance"
+},
+"conv_18459": {
+    "conversation": "Mom, my phone is broken. Save this number and message me on KakaoTalk. I have something to tell you. ㅠ_x000D_\nSMS/-",
+    "output": "Report of spam impersonating an acquaintance"
+},
+"conv_20673": {
+    "conversation": "[International Message] Same-day remote processing 30~300, even applicants previously rejected!! Want a consultation? Search ID: C J S 3 4",
+    "output": "Report of spam related to illegal loan offer"
+},
+"conv_12977": {
+    "conversation": "We provide 100% approval through fake work loans. Due to high workload, phone consultations are difficult. Please add us on KakaoTalk below to request a consultation. ID: tmt555",
+    "output": "Report of spam related to illegal loan offer"
+},
+"conv_11922": {
+    "conversation": "[International Message] Fast non-face-to-face over the weekend 🚫 No.1 private lender 🚫 As low as 2?? Inquiry? KaTalk: app9494",
+    "output": "Report of spam related to illegal loan offer"
+},
+"conv_22307": {
+    "conversation": "Dear customer, on 07/19, 792401**38725 card was used for a lump sum payment of 673,500 KRW. If this seems unusual, please contact our call center (1833-7386).",
+    "output": "Reported spam related to overseas payment alert"
+},
+"conv_10785": {
+    "conversation": "[Woori Card] (2351) Card activation completed. If you did not request this, please contact us. For inquiries: (1551-5104)",
+    "output": "Reported spam related to overseas payment alert"
+},
+"conv_22356": {
+    "conversation": "OndaDirectPurchase [￦1,659,000] Payment Completed. Code Number: 75**. Customs and shipping fees will be charged separately. For inquiries, please contact customer service: 02-6081-1517",
+    "output": "Reported spam related to overseas payment alert"
+},
+"conv_4959": {
+    "conversation": "[International Message][CJ Logistics] Delivery is delayed due to an address error. Please send the correct address via KakaoTalk: bit.ly/김지훈17cj",
+    "output": "Reported spam related to international delivery"
+},
+"conv_2502": {
+    "conversation": "[Coupang] Hello, this is delivery driver Kim Ki-seok. Please check the delivery address setting error: https://han.gl/uvGSmC ◀Check",
+    "output": "Reported spam related to international delivery"
+},
+"conv_6281": {
+    "conversation": "[International] Delivery has been put on hold due to a postal code error. Please fill it out again and resend as soon as possible: https://linkr.it/2FOdhv\nSMS/-",
+    "output": "Reported spam related to international delivery"
+},
+"conv_17266": {
+    "conversation": "MMS Spam Report [Web Message] <Home Shopping Side Job/Part-Time Recruitment Notice> Hello, this is HR representative Kim Mi-jung. <How to apply> Mobile application - KakaoTalk ID: tfn3 - Click link: http://qr.kakao.com/talk/oWLH1gblIvFWNjkGWPzWPEeB3BI - 1. Must be able to work sincerely 2. Short/long-term possible 3. Not subject to 4 major insurances, so side work is possible [Work details] - 09:00 ~ 20:00, can work during desired time slots [Pay] - 100,000 ~ 200,000 KRW per day / Over 3,000,000 KRW per month <How to apply> Mobile application - KakaoTalk ID: tfn3 - Click link: http://qr.kakao.com/talk/oWLH1gblIvFWNjkGWPzWPEeB3BI - Due to a high number of inquiries, text message replies may be delayed, so please apply via KakaoTalk - Additional method: Access KakaoTalk, click 'Add Friends' at the top -> Add by ID -> Enter ID and search -> 1:1 inquiry -> Say 'I saw the recruitment notice' *Only responsible individuals should apply *Daily pay is given the same day, so feel free to inquire anytime._x000D_\nMMS/[No Title]",
+    "output": "Job recruitment spam report"
+},
+"conv_22776": {
+    "conversation": "MMS Spam Report [Web Message] Hello. We are currently recruiting staff to work with us. → Looking for individuals who can diligently handle their assigned workload for at least 30 minutes daily → Short/long-term positions available, with additional benefits for hardworking staff. < Job and Requirement Details > * Number of hires: 20 - Currently 13/20 * Working hours: 1 to 2 hours per day (may vary based on workload) * Age: 21 years or older * No gender or educational background restrictions * University students / office workers / homemakers / freelancers * Beginners welcome if passionate * Average 4 days per week, 1 hour work = At least KRW 2 million per month!! ◈ Online Consultation ◈ Manager Gain ↓↓ Start consultation ↓↓ http://pf.kakao.com/_quMnG (Open KakaoTalk - Add channel - Send message) ● Incoming number is not available for consultation. We will assist you with recruitment consultation via KakaoTalk. ● Work is possible anywhere with a computer or smartphone. We look forward to many recruitment inquiries._x000D_\nMMS/Title>「Urgent Hiring for Stable Side Job/Remote Work」",
+    "output": "Job recruitment spam report"
+},
+"conv_17926": {
+    "conversation": "[MMS](Ad) Trustworthy job opportunity. Beginners welcome. Simple assistant work that anyone can do. Daily pay available / Suitable for housewives. Job details: Item entry and order confirmation (For more details, inquire via KakaoTalk) ■ KakaoTalk Consultation Guide (Real-time inquiry) ↓↓↓ http://pf.kakao.com/_xoKjXG_x000D__x000D_\nMMS/KISA Report Message",
+    "output": "Job recruitment spam report"
+},
+"conv_804": {
+    "conversation": "Hello, this is the Credit Loan Customer Support Team always here with you. Anyone who is a salaried employee enrolled in the four major insurance plans is eligible to apply for a loan. We offer low interest rates starting from 5% annually and quick processing of up to 30 million KRW. From screening to approval, the funds can be transferred within an hour. If you would like to speak to a representative, please press 1.",
+    "output": "Voice spam report record"
+},
+"conv_7213": {
+    "conversation": "This is OK Savings Bank, bringing you happiness. The legal maximum interest rate has been lowered and screening criteria have also been relaxed. You may be eligible for refinancing or an additional loan of up to 100 million KRW, starting from a minimum interest rate of 6%. If you would like to apply, press 1. If you wish to decline, press 0.",
+    "output": "Voice spam report record"
+},
+"conv_19995": {
+    "conversation": "Hello, this is the People's Finance Support Center, providing special policy assistance for low-income individuals. For those seeking debt consolidation, living expenses, card loans, or cash advance services, we offer loans of up to 100 million KRW, with a maximum repayment period of 10 years and the lowest interest rates this month. If you would like to speak with a professional consultant, please press 1.",
+    "output": "Voice spam report record"
+}
+}

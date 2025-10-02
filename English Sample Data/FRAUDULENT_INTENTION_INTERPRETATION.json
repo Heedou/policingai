@@ -1,0 +1,31 @@
+{
+"35": {
+  "conversation": "So you don’t have one.\nJust to confirm, you're saying you’re not the one who opened that account, correct?\n",
+  "intention": [
+    "3. Case Introduction - ⑦ Confirming whether the suspicious (borrowed-name) bank account was directly opened by the citizen"
+  ],
+  "file": "[Seoul Nat'l Univ.]NR1463.m4a.txt",
+  "case": null,
+  "time": "UTC 2019-05-14 01:16:25"
+},
+"927": {
+  "conversation": "Are you available to talk right now?\nYes. By any chance, do you know a man named [Name], aged [Age]?\n",
+  "intention": [
+    "3. Case Introduction - ① Asking if the person knows a fictional individual related to the case"
+  ],
+  "file": "[Seoul Nat'l Univ.]NR1462.m4a.txt",
+  "case": null,
+  "time": "UTC 2019-05-14 01:04:13"
+},
+"1223": {
+  "conversation": "Is this a good time to talk?\nYes, I’m Investigator Jeong Il-do from the Seoul Western District Prosecutors’ Office. Is now a good time to speak?\nYes. The reason I’m calling is to ask you a few questions regarding an identity theft case involving someone under your name.\nDo you happen to know someone named [Name] among your acquaintances?\n",
+  "intention": [
+    "2. Self-introduction - ① Stating the impersonated identity",
+    "2. Self-introduction - ② Stating the reason for the call",
+    "3. Case Introduction - ① Asking if the person knows a fictional individual related to the case"
+  ],
+  "file": "[SeoulNatlUniv]NR_0011294_.txt",
+  "case": "NR_001129",
+  "time": "UTC 2019-04-25 02:34:19"
+}
+}
