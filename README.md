@@ -11,6 +11,8 @@ It defines 11 tasks across four policing roles (Police Officer, Intelligence Ana
 ### Since our dataset is originally constructed in Korean, we provide English samples for all task datasets.
 
 #### 1. Operational QA task
+#### Answer procedural or legal questions across all police domains. This task reflects the foundational need for officers to respond accurately to a wide range of operational queries.
+
 <pre>```json
 {
 "conv_993": {
@@ -24,6 +26,8 @@ It defines 11 tasks across four policing roles (Police Officer, Intelligence Ana
 ```</pre>
 
 #### 2. Offense Detection task
+#### Predict the offense category from a description of criminal behavior. This task is motivated by the need for police officers to classify crimes and determine whether certain behaviors fall under punishable legal offenses.
+
 <pre>```json
 {
 "conv_112824": {
@@ -41,6 +45,8 @@ It defines 11 tasks across four policing roles (Police Officer, Intelligence Ana
 ```</pre>
 
 #### 3. Fradulent Scenario Detection task
+#### Detect whether a given conversation is related to voice phishing. This task supports officers in distinguishing fraudulent content from general civilian interactions.
+
 <pre>```json
 {
 "conv_7113": {
@@ -52,6 +58,8 @@ It defines 11 tasks across four policing roles (Police Officer, Intelligence Ana
 ```</pre>
 
 #### 4. Fradulent Intention Interpretation task
+#### Classify the intentions behind a scammer’s speech and explain why the dialogue qualifies as voice phishing. This task supports the need to identify deceptive intent in dialogue patterns common to vishing scams.
+
 <pre>```json
 {
 "35": {
@@ -66,6 +74,8 @@ It defines 11 tasks across four policing roles (Police Officer, Intelligence Ana
 ```</pre>
 
 #### 5. Fradulent Scenario Completion task
+#### Predict the next likely utterance from a scammer in an ongoing fraud attempt dialogue. This task is designed to support intelligence analysts in understanding and modeling the sequential flow of scripted conversations commonly used in fraud attempts.
+
 <pre>```json
 {
 "139": {
@@ -78,6 +88,8 @@ It defines 11 tasks across four policing roles (Police Officer, Intelligence Ana
 ```</pre>
 
 #### 6. Deceptive Message Analysis task
+#### Classify the fraudulent tactics used in scam messages by analyzing given SMS content. This task addresses the need to differentiate between types of scam attempts based on SMS messages.
+
 <pre>```json
 {
 "conv_9476": {
@@ -87,6 +99,8 @@ It defines 11 tasks across four policing roles (Police Officer, Intelligence Ana
 ```</pre>
 
 #### 7. Case Analysis NER task
+#### Extract named entities from crime-related texts for investigative analysis. This task supports the identification of key investigative elements such as phone numbers or suspect’s names
+
 <pre>```json
 {
 "conv_13534": {
@@ -97,6 +111,8 @@ It defines 11 tasks across four policing roles (Police Officer, Intelligence Ana
 ```</pre>
 
 #### 8. Emergency Report Summarization task
+#### Summarize emergency call conversations from both the caller’s and the police officer’s perspectives. This task supports rapid understanding of urgent situations for appropriate response planning.
+
 <pre>```json
 {
 "conv_72": {
@@ -106,6 +122,8 @@ It defines 11 tasks across four policing roles (Police Officer, Intelligence Ana
 ```</pre>
 
 #### 9. Criminal Hypothesis Evaluation task
+#### Determine the truth value of a criminal investigation hypothesis and justify it using criminal law and investigative method This task helps investigators assess the legality of actions in case scenarios.
+
 <pre>```json
 {
 "hypothesis_5062": {
@@ -119,6 +137,9 @@ It defines 11 tasks across four policing roles (Police Officer, Intelligence Ana
 ```</pre>
 
 #### 10. Statute Mapping task
+#### Predict the specific criminal law article that applies to a described behavior. This task is formulated as a multilabel multiclass classification problem to support criminal investigators in mapping factual descriptions of unlawful
+behavior to the correct provisions in criminal law, aiding in the accurate drafting of reports.
+
 <pre>```json
 {
 "conv_112824": {
@@ -136,6 +157,8 @@ It defines 11 tasks across four policing roles (Police Officer, Intelligence Ana
 ```</pre>
 
 #### 11. Element Analysis task
+#### Identify the act element of an offense as recognized in the given factual description of a crime. This task is designed to support investigators in determining the presence of legal elements necessary for criminal liability
+
 <pre>```json
 {
 "conv_112824": {
@@ -152,7 +175,8 @@ It defines 11 tasks across four policing roles (Police Officer, Intelligence Ana
 },
 ```</pre>
 
-* All data are in JSON file format and follow the structure shown below. Each key labeled with `conv_num` corresponds to a single data instance.  
+## Data Structure
+### All data are in JSON file format and follow the structure shown below. Each key labeled with `conv_num` corresponds to a single data instance.  
 
 
 
@@ -163,7 +187,8 @@ It defines 11 tasks across four policing roles (Police Officer, Intelligence Ana
               }
 </pre>
 
-* To read the JSON files, please use the sample code provided below.  
+## How to read Json file
+### To read the JSON files, please use the sample code provided below.  
 
 ```python
 import json
@@ -181,12 +206,14 @@ for key in keys:
     print(f"Data for {key}:", data[key])
 ```
 
-## To train smaller Language Models, you can use the code provided below. Refer to the example in prepare_train.yaml and configure the settings for the model you want to train.
+## Training
+### To train smaller Language Models, you can use the code provided below. Refer to the example in prepare_train.yaml and configure the settings for the model you want to train.
 ```python
 python train_laworer.py -oc [model name]
 ```
 
-## For the evaluation of models using each task dataset, we also provide English Instruction Templates. The templates for each task are presented in Appendix D of the paper.
+## Evaluation
+### For the evaluation of models using each task dataset, we also provide English Instruction Templates. The templates for each task are presented in Appendix D of the paper.
 ```The evaluation template in Korean is provided in dataset.py.```
 
 ## Link to Dataset
