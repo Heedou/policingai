@@ -1,7 +1,12 @@
-# Law & Order
-Benchmark Dataset for Evaluating Large Language Models in Policing
+# LAW & ORDER : Benchmark Dataset for Evaluating Large Language Models in Policing
 
-## Overview of Datasets
+## Overview
+
+Our dataset is Law&Order, the first role-based benchmark for evaluating large language models (LLMs) in real-world policing. 
+
+It defines 11 tasks across four policing roles (Police Officer, Intelligence Analyst, Patrol Officer, Criminal Investigator) under the MKT (Mission–Knowledge–Thinking) framework, with over 210,000 instances annotated by 39 experts.
+
+## Datasets
 
 ### We provide English samples for all task datasets.
 
