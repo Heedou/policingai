@@ -8,7 +8,7 @@ It defines 11 tasks across four policing roles (Police Officer, Intelligence Ana
 
 ## Datasets
 
-### We provide English samples for all task datasets.
+### Since our dataset is originally constructed in Korean, we provide English samples for all task datasets.
 
 #### 1. Operational QA task
 <pre>```json
