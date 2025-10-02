@@ -181,10 +181,13 @@ for key in keys:
     print(f"Data for {key}:", data[key])
 ```
 
-* To train smaller Language Models, you can use the code provided below.
+## To train smaller Language Models, you can use the code provided below. Refer to the example in prepare_train.yaml and configure the settings for the model you want to train.
 ```python
 python train_laworer.py -oc [model name]
 ```
+
+## For the evaluation of models using each task dataset, we also provide English Instruction Templates. The templates for each task are presented in Appendix D of the paper.
+```The evaluation template in Korean is provided in dataset.py.```
 
 ## Link to Dataset
 https://drive.google.com/file/d/16RTs00zWr1H8vFOU0Wgt0IklXAoDyXNN/view?usp=sharing
