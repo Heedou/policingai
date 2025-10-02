@@ -1,11 +1,44 @@
 # Law & Order
 Benchmark Dataset for Evaluating Large Language Models in Policing
 
+## Overview of Datasets
+
+* We provide English samples for all task datasets.
+
+* All data are in JSON file format and follow the structure shown below. Each key labeled with `conv_num` corresponds to a single data instance.  
+
+
+
+<pre> data = { 
+            "conv_number": { "input" :  ```, "output" : '''},
+            "conv_number": { "input" :  ```, "output" : '''},
+            ....
+              }
+</pre>
+
+* To read the JSON files, please use the sample code provided below.  
+
+```python
+import json
+
+# Read JSON file
+with open("data.json", "r") as f:
+    data = json.load(f)
+
+# Store keys in a list
+keys = list(data.keys())
+print("All keys list:", keys)
+
+# Access data for each key
+for key in keys:
+    print(f"Data for {key}:", data[key])
+```
+
 
 ## Link to Dataset
-https://huggingface.co/datasets/PSI-PAIRC/Law_and_Order
+https://drive.google.com/file/d/16RTs00zWr1H8vFOU0Wgt0IklXAoDyXNN/view?usp=sharing
 
-# Benchmarks
+## Benchmarks Evaluation Results
 
 | LLM as                | Task                                | Metric            | GPT4o | Gemini 2.0 | EEVE 10.8B | SOLAR 10.7B | Llama 3.1-8B | Llama 3.2-1B |
 |-----------------------|-------------------------------------|-------------------|--------|--------------|--------------|---------------|----------------|----------------|
